@@ -1,0 +1,12 @@
+# importar a base de dados
+import pandas as pd
+
+# tratar os dados
+
+# FATURAMENTO DE CADA LOJA
+
+# QUANTIDADE DE PRODUTOS VENDIDOS POR LOJA
+
+# TICKET MEDIO DE PRODUTO POR CADA LOJA
+
+# ENVIAR UM EMAIL COM RELATORIO

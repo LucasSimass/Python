@@ -1,0 +1,18 @@
+div#caixa{
+    position: absolute;
+    background-color: aqua;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+div#caixa:hover{
+    background-color: rgb(9, 141, 141);
+    box-shadow: 1px 1px 10px black;
+}

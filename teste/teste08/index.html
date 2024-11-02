@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudando conteudo</title>
+</head>
+<body id="body">
+    <header>
+        <nav style="font-size: 2em;">
+            <a href="#" onclick="clicouh()" id="home">Home</a>
+            <a href="#" onclick="clicoun()" id="news">News</a>
+            <a href="#" onclick="clicouf()" id="furniture">Furniture</a>
+            <a href="#" onclick="clicoue()" id="extra">Extra</a>
+            <a href="#" onclick="clicounm()" id="nmode">Night Mode</a>
+            <a href="#" onclick="clicoul()" id="limpar">Limpar</a>
+        </nav>
+        <main>
+            <h1 id="h1">Home</h1>
+            <p>Mudando o titulo principla sempre clica</p>
+        </main>
+    </header>
+    <script lang="js">
+        var h1 = document.getElementById("h1")
+        var body = document.getElementById("body")
+    
+        function clicouh(){
+            h1.style.transition = "1s"
+            h1.style.backgroundColor = "grey"
+            h1.style.color = "white"
+            h1.innerHTML = "Home"
+        }
+
+        function clicoun(){
+            h1.innerHTML = "News"
+        }
+
+        function clicouf(){
+            h1.innerHTML = "Furniture"
+        }
+
+        function clicoue(){
+            h1.innerHTML = "Extra"
+        }
+
+        function clicoul(){
+            h1.style.transition = "1s"
+            h1.style.backgroundColor = "black"
+            h1.style.color = "black"
+            h1.innerHTML = "Home"
+        }
+
+        function clicounm(){
+            h1.style.transition = "0.5s"
+            body.style.backgroundColor = "#141313"
+            body.style.color = "white"
+        }
+    </script>
+</body>
+</html>
